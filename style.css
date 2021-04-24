@@ -1,0 +1,102 @@
+@font-face {
+  src: url(fonts/Caveat/Caveat-VariableFont_wght.ttf);
+  font-family: nos;
+}
+@font-face {
+  src: url(fonts/Patrick_Hand/PatrickHand-Regular.ttf);
+  font-family: son;
+}
+* {
+  margin: 0;
+  padding: 0;
+}
+.dis {
+  font-family: son;
+  font-size: 20px;
+  max-width: 600px;
+}
+.tit {
+  font-family: nos;
+}
+body {
+  background-image: url("img/background1.jpg");
+  background-size: cover;
+}
+section {
+  margin: 0;
+  display: flex;
+  justify-content: center;
+}
+header {
+  width: 100%;
+  height: 70px;
+}
+.links {
+  margin-right: 50px;
+  padding: 15px;
+  margin: auto;
+  justify-content: space-between;
+  background-color: black;
+  padding: 3px;
+  opacity: 0.9;
+  color: black;
+  float: center;
+  text-align: center;
+}
+li {
+  display: inline-block;
+  padding: 15px 30px;
+}
+a {
+  color: #ffffff;
+  text-decoration: none;
+  font-size: 1.2vw;
+}
+a:hover {
+  color: #f0c330;
+  transition: 0.5;
+}
+.container {
+  position: relative;
+  width: 1200px;
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+}
+.date {
+  font-family: son;
+  margin-left: 150px;
+  margin-top: 5px;
+  font-size: 18px;
+}
+.container .card {
+  display: flex;
+  position: relative;
+  max-width: 450px;
+  background: #ffffff;
+  margin: 10px;
+  padding: 15px;
+  display: flex;
+  box-shadow: -30px 30px 20px rgba(0, 0, 0, 0.3);
+}
+.imgbx {
+  max-width: 225px;
+}
+.imgbx img {
+  max-width: 100%;
+}
+.bottom_line {
+  margin-right: 50px;
+  padding: 15px;
+  margin: auto;
+  justify-content: space-between;
+  background-color: black;
+  padding: 10px;
+  opacity: 0.9;
+  color: black;
+  float: center;
+  text-align: center;
+}
